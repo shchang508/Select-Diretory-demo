@@ -3,7 +3,7 @@
 /* The alert message box */
 .alert {
     padding: 20px;
-    background-color: #ffebee; 
+    background-color: #ffcdd2; 
     color: black;
     margin-bottom: 10px;
 }
@@ -80,7 +80,7 @@ h1 {
     fill: currentColor;
     margin-top: -0.25em;
     /* 4px */
-    margin-right: 0.25em;
+    margin-right: 0.5em;
     /* 4px */
 }
 
