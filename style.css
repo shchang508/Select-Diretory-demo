@@ -94,3 +94,42 @@ h1 {
 .fileInput + label:hover {
     background-color: #72160c;
 }
+
+/* Submit button */
+.submitBtn {
+    max-width: 80%;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 11px 17px; 
+}
+
+.submitBtn:focus, .submitBtn.has-focus {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.submitBtn svg {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+.submitBtn {
+    color: #f1e5e6;
+    background-color: #a13225;
+}
+
+.submitBtn:focus, .submitBtn.has-focus, .submitBtn:hover {
+    background-color: #72160c;
+}
