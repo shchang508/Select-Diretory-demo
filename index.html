@@ -7,39 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>Info: </strong> Please check you launch the TSReader first.
+    </div>
 </head>
 
 <body>
-    <h1>Stream Analysis <span class="span">with TSReader</span></h1>
+    <h1>Stream Analysis
+        <span class="span">with TSReader</span>
+    </h1>
 
-    <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-        <strong>Info: </strong> Please check you launch the TSReader first.
-    </div>
+    
 
     <div class="box">
         <input class="fileInput" type="file" id="filepicker" name="fileList" webkitdirectory multiple />
-        <label class="fileLabel" for="filepicker"> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
-            height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-       <g id="Bounding_Boxes">
-           <path fill="none" d="M0,0h24v24H0V0z"/>
-       </g>
-       <g id="Outline">
-           <g id="ui_x5F_spec_x5F_header">
-           </g>
-           <g>
-               <path d="M19.35,10.04C18.67,6.59,15.64,4,12,4C9.11,4,6.6,5.64,5.35,8.04C2.34,8.36,0,10.91,0,14c0,3.31,2.69,6,6,6h13
+        <label class="fileLabel" for="filepicker">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                <g id="Bounding_Boxes">
+                    <path fill="none" d="M0,0h24v24H0V0z" />
+                </g>
+                <g id="Outline">
+                    <g id="ui_x5F_spec_x5F_header">
+                    </g>
+                    <g>
+                        <path d="M19.35,10.04C18.67,6.59,15.64,4,12,4C9.11,4,6.6,5.64,5.35,8.04C2.34,8.36,0,10.91,0,14c0,3.31,2.69,6,6,6h13
                    c2.76,0,5-2.24,5-5C24,12.36,21.95,10.22,19.35,10.04z M19,18H6c-2.21,0-4-1.79-4-4c0-2.05,1.53-3.76,3.56-3.97l1.07-0.11
                    l0.5-0.95C8.08,7.14,9.94,6,12,6c2.62,0,4.88,1.86,5.39,4.43l0.3,1.5l1.53,0.11C20.78,12.14,22,13.45,22,15
-                   C22,16.65,20.65,18,19,18z"/>
-               <polygon points="8,13 10.55,13 10.55,16 13.45,16 13.45,13 16,13 12,9 		"/>
-           </g>
-       </g>
-       </svg>Select a Directory</label>
+                   C22,16.65,20.65,18,19,18z" />
+                        <polygon points="8,13 10.55,13 10.55,16 13.45,16 13.45,13 16,13 12,9 		" />
+                    </g>
+                </g>
+            </svg>
+            Select a Directory</label>
     </div>
 
     <div class="box">
-        <input type="button" value="Click Me">
+        <button class="submitBtn">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+                height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                <g id="Bounding_Boxes">
+                    <g id="ui_x5F_spec_x5F_header_copy_3" display="none">
+                    </g>
+                    <path fill="none" d="M0,0h24v24H0V0z" />
+                </g>
+                <g id="Outline">
+                    <g id="ui_x5F_spec_x5F_header" display="none">
+                    </g>
+                    <path id="XMLID_1127_" d="M4.01,6.03l7.51,3.22L4,8.25L4.01,6.03 M11.51,14.75l-7.51,3.22l0-2.22L11.51,14.75 M2.01,3L2,10l15,2
+		L2,14l0.01,7L23,12L2.01,3L2.01,3z" />
+                </g>
+            </svg>
+        Submit</button>
     </div>
 
 </body>
