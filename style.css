@@ -76,6 +76,15 @@ h1 {
     padding: 11px 15px; 
 }
 
+.fileLabel:before {
+    font: inherit;
+    content: "Step 1 :";
+    position: absolute;
+    display: inline-block;
+    width: 118%;
+    right: 20%;
+  }
+
 .fileInput:focus + label,
 .fileInput.has-focus + label {
     outline: 1px dotted #000;
@@ -115,10 +124,19 @@ h1 {
     white-space: nowrap;
     cursor: pointer;
     display: inline-block;
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 11px 17px; 
     margin-top: 10px;
 }
+
+.submitBtn:before {
+    font: inherit;
+    content: "Step 2 :";
+    position: absolute;
+    display: inline-block;
+    width: 170%;
+    right: 60%;
+  }
 
 .submitBtn:focus, .submitBtn.has-focus {
     outline: 1px dotted #000;
