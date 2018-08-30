@@ -3,12 +3,12 @@
 /* The alert message box */
 .alert {
     padding: 15px;
-    background-color: #ffcdd2; 
+    background-color: #5bc0de; /*#ffcdd2;*/ 
     color: black;
     margin-bottom: 15px;
     position: fixed;
     top: 0;
-    left: 5;
+    /* left: 5; */
     width: 95%;
 }
 
@@ -34,10 +34,10 @@
 }
 
 body {
-    background-color: #e74c3c;
-    font-family: Lato, Arial; 
-    color: #fff;
-    padding: 55px 25px;
+    background-color: #2b3e50; /* #e74c3c; */
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;/* font-family: Lato, Arial;  */
+    color:#ebebeb;
+    padding: 50px 25px;
 }
 
 h1 {
@@ -46,6 +46,7 @@ h1 {
     font-size: 50px;
     font-weight: normal;
     text-transform: uppercase;
+    /* text-align:center; */
 }
 
 .span { 
@@ -65,14 +66,14 @@ h1 {
 
 .fileInput + label {
     max-width: 80%;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     text-overflow: ellipsis;
     white-space: nowrap;
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
-    padding: 11px 17px; 
+    padding: 11px 15px; 
 }
 
 .fileInput:focus + label,
@@ -93,8 +94,9 @@ h1 {
 }
 
 .fileInput + label {
-    color: #f1e5e6;
-    background-color: #a13225;
+    color: #ebebeb;
+    background-color: #d9534f;
+    /* background-color: #a13225; */
 }
 
 .fileInput:focus + label,
@@ -107,8 +109,8 @@ h1 {
 .submitBtn {
     max-width: 80%;
     border: none;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     text-overflow: ellipsis;
     white-space: nowrap;
     cursor: pointer;
@@ -135,10 +137,25 @@ h1 {
 }
 
 .submitBtn {
-    color: #f1e5e6;
-    background-color: #a13225;
+    color: #ebebeb;
+    background-color: #d9534f; /*#a13225;*/
 }
 
 .submitBtn:focus, .submitBtn.has-focus, .submitBtn:hover {
     background-color: #72160c;
 }
+
+/* .box {
+    margin: 0px auto;
+    padding: 40px 40px 40px;
+    max-width: 500px;
+    text-align: center;
+    background: #4e5d6c;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    display: flex;
+  justify-content: center;
+  }
+  .box:hover {
+    border-color: #383a3a;
+  } */
